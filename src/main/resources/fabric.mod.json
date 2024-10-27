@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "learnmod",
+	"version": "${version}",
+	"name": "LearnMod",
+	"description": "This is an mod that i wrote to learn minecraft modding",
+	"authors": [
+		"Norois!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/learnmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"net.norois.learnmod.LearnModClient"
+		],
+		"main": [
+			"net.norois.learnmod.LearnMod"
+		],
+		"fabric-datagen": [
+			"net.norois.learnmod.LearnModDataGenerator"
+		]
+	},
+	"mixins": [
+		"learnmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

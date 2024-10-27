@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#S#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "learnmod:le_block"
+    },
+    "S": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "learnmod:vein"
+  }
+}

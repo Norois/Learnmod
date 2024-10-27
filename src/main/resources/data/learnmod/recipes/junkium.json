@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "learnmod:junko"
+    }
+  },
+  "result": {
+    "item": "learnmod:junko_block"
+  }
+}

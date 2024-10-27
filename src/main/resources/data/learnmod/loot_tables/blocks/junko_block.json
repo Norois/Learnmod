@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:blocks",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "learnmod:junko_block"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

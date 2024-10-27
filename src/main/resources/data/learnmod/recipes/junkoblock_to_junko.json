@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building,",
+  "ingredients": [
+    {
+      "item": "learnmod:junko_block"
+    }
+  ],
+  "result": {
+    "item": "learnmod:junko",
+    "count": 9
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "item.learnmod.talisman": "Talisman",
+  "item.learnmod.le": "Le Sanae",
+  "item.learnmod.vein": "Venadein",
+
+  "item.learnmod.junko": "Junkium",
+  "item.learnmod.junko_raw": "Raw Junkium",
+
+  "block.learnmod.le_block": "Lerianite",
+  "block.learnmod.junko_block": "Junkium",
+  "block.learnmod.junko_ore": "Junkium ore",
+
+  "itemgroup.touhou": "Touhou"
+}
