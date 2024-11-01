@@ -10,5 +10,8 @@
   "block.learnmod.junko_block": "Junkium",
   "block.learnmod.junko_ore": "Junkium ore",
 
+  "item.learnmod.geode_detector": "Geode Detector",
+  "item.learnmod.philosophers_stone": "Philosophers Stone",
+
   "itemgroup.touhou": "Touhou"
 }

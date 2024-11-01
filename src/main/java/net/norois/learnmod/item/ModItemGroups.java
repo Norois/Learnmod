@@ -31,6 +31,9 @@ public class ModItemGroups {
                         entries.add(ModItems.JUNKO);
                         entries.add(ModItems.JUNKO_RAW);
 
+                        // Tools
+                        entries.add(ModItems.GEODE_DETECTOR);
+                        entries.add(ModItems.PHILOSOPHERS_STONE);
                     }).build());
 
     public static void registerItemGroups(){
