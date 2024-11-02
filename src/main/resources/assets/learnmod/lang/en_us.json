@@ -9,9 +9,12 @@
   "block.learnmod.le_block": "Lerianite",
   "block.learnmod.junko_block": "Junkium",
   "block.learnmod.junko_ore": "Junkium ore",
+  "block.learnmod.coke_dispenser": "Coke dispenser",
 
   "item.learnmod.geode_detector": "Geode Detector",
   "item.learnmod.philosophers_stone": "Philosophers Stone",
+
+  "item.learnmod.coke": "Coke",
 
   "itemgroup.touhou": "Touhou"
 }

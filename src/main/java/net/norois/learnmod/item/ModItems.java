@@ -2,6 +2,7 @@ package net.norois.learnmod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.client.tutorial.TutorialManager;
@@ -24,6 +25,7 @@ public class ModItems {
             new GeodeDetectorItem(new FabricItemSettings().maxDamage(64)));
     public static final Item PHILOSOPHERS_STONE = registerItem("philosophers_stone",
             new PhilosophersStone(new FabricItemSettings()));
+    public static final Item COKE = registerItem("coke", new Item(new FabricItemSettings().food(ModFoodComponents.COKE)));
 
     private static void addItemsToIngredientsTabItemGroup(FabricItemGroupEntries entries){
         entries.add(VEIN);

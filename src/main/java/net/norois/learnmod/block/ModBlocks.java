@@ -14,6 +14,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.norois.learnmod.LearnMod;
+import net.norois.learnmod.block.custom.CokeDispenerBlock;
 
 public class ModBlocks {
 
@@ -27,6 +28,8 @@ public class ModBlocks {
     public static final Block JUNKO_ORE = registerBlock("junko_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(4f), UniformIntProvider.create(10, 30)));
 
+    public static final Block COKE_DISPENSER = registerBlock("coke_dispenser",
+            new CokeDispenerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

@@ -26,6 +26,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LE_BLOCK);
                         entries.add(ModBlocks.JUNKO_BLOCK);
                         entries.add(ModBlocks.JUNKO_ORE);
+                        entries.add(ModBlocks.COKE_DISPENSER);
 
                         // Ores
                         entries.add(ModItems.JUNKO);
@@ -34,6 +35,9 @@ public class ModItemGroups {
                         // Tools
                         entries.add(ModItems.GEODE_DETECTOR);
                         entries.add(ModItems.PHILOSOPHERS_STONE);
+
+                        // Consumables
+                        entries.add(ModItems.COKE);
                     }).build());
 
     public static void registerItemGroups(){
