@@ -16,5 +16,10 @@
 
   "item.learnmod.coke": "Coke",
 
+  "learnmod.blocks.coke_dispenser.tooltip": "Dispenses coke! With a price.",
+
+  "learnmod.items.geode_detector.tooltip": "Finds geodes underground!",
+  "learnmod.items.philosophers_stone.tooltip": "The ultimate alchemy achievement! Converts iron into gold!",
+
   "itemgroup.touhou": "Touhou"
 }

@@ -16,7 +16,7 @@ import net.norois.learnmod.item.custom.GeodeDetectorItem;
 import net.norois.learnmod.item.custom.PhilosophersStone;
 
 public class ModItems {
-    public static final Item TALISMAN = registerItem("talisman", new Item(new FabricItemSettings()));
+    public static final Item TALISMAN = registerItem("talisman", new Item(new FabricItemSettings().food(ModFoodComponents.TALISMAN)));
     public static final Item LE = registerItem("le", new Item(new FabricItemSettings()));
     public static final Item VEIN = registerItem("vein", new Item(new FabricItemSettings()));
     public static final Item JUNKO = registerItem("junko", new Item(new FabricItemSettings()));
