@@ -20,6 +20,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.JUNKO_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.COKE_DISPENSER);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ROOF_TOP);
     }
 
     @Override

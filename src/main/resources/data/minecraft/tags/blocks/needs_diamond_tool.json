@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "learnmod:junko_block",
-    "learnmod:junko_ore"
+    "learnmod:junko_ore",
+    "learnmod:roof_top"
   ]
 }

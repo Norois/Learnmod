@@ -27,6 +27,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.JUNKO_BLOCK);
                         entries.add(ModBlocks.JUNKO_ORE);
                         entries.add(ModBlocks.COKE_DISPENSER);
+                        entries.add(ModBlocks.ROOF_TOP);
 
                         // Ores
                         entries.add(ModItems.JUNKO);
