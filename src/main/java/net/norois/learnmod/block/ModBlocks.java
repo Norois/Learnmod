@@ -15,6 +15,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.norois.learnmod.LearnMod;
 import net.norois.learnmod.block.custom.CokeDispenerBlock;
+import net.norois.learnmod.block.custom.RoofTopBlock;
 
 public class ModBlocks {
 
@@ -30,6 +31,9 @@ public class ModBlocks {
 
     public static final Block COKE_DISPENSER = registerBlock("coke_dispenser",
             new CokeDispenerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
+    public static final Block ROOF_TOP = registerBlock("roof_top",
+            new RoofTopBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_LOG)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
