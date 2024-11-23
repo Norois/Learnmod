@@ -26,7 +26,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.JUNKO_BLOCK)
-                .add(ModBlocks.JUNKO_ORE);
+                .add(ModBlocks.JUNKO_ORE)
+                .add(ModBlocks.ROOF_TOP);
 
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")))
                 .add(ModBlocks.LE_BLOCK);

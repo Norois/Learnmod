@@ -26,6 +26,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.LE_BLOCK);
         addDrop(ModBlocks.JUNKO_BLOCK);
         addDrop(ModBlocks.COKE_DISPENSER);
+        addDrop(ModBlocks.ROOF_TOP);
 
         addDrop(ModBlocks.JUNKO_ORE, copperLikeOreDrops(ModBlocks.JUNKO_ORE, ModItems.JUNKO_RAW));
     }

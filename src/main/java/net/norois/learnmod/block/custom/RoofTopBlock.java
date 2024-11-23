@@ -18,20 +18,17 @@ public class RoofTopBlock extends Block {
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
 
-        int top = pos.getY() + 20;
-        int sideX = pos.getX() - 10;
-        int sideZ = pos.getZ() - 10;
+        if(!world.isClient) {
+            int top = 20;
+            int side = -10;
 
-
-        for(int i = 0; i <= 20; i++){
-            BlockPos BlockToReplace = new BlockPos(sideX, sideZ, top);
-            replace(world.getBlockState(BlockToReplace), Blocks.OAK_PLANKS.getDefaultState(), world, BlockToReplace, 0);
-            sideZ ++;
-            sideX ++;
+            for (int i = 0; i <= 20; i++) {
+                for (int j = 0; j <= 20; j++) {
+                    BlockPos BlockToReplace = pos.up(top).north(side + i).east(side + j);
+                    replace(world.getBlockState(BlockToReplace), Blocks.OAK_PLANKS.getDefaultState(), world, BlockToReplace, 0);
+                }
+            }
         }
-//        replace(world.getBlockState(new BlockPos(pos.getX(), pos.getZ(), pos.getY() + 1)),
-//                Blocks.OAK_PLANKS.getDefaultState(), world,
-//                new BlockPos(pos.getX(), pos.getZ(), pos.getY() + 1), 0);
 
         return ActionResult.SUCCESS;
     }

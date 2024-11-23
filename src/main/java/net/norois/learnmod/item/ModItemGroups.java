@@ -28,7 +28,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.JUNKO_ORE);
                         entries.add(ModBlocks.COKE_DISPENSER);
                         entries.add(ModBlocks.ROOF_TOP);
-
+                        entries.add(ModBlocks.GODOT);
                         // Ores
                         entries.add(ModItems.JUNKO);
                         entries.add(ModItems.JUNKO_RAW);
